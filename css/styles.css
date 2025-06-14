@@ -5,49 +5,57 @@ body {
   left: 370px;
 }
 .header {
-  width: 1440;
-  height: 72;
+  width: 1440px;
+  height: 72px;
 }
 .header-navigation {
-  width: 261;
-  height: 24;
+  width: 261px;
+  height: 24px;
   top: 24px;
   left: 347px;
   gap: 40px;
 }
 .header-navigation-logo {
-  width: 115;
-  height: 24;
+  width: 115px;
+  height: 24px;
   top: 24px;
   left: 156px;
+  font-family: "Raleway";
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 1.17px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
-.header-navigation-email {
-  width: 153;
-  height: 24;
+.header-address-email {
+  width: 153px;
+  height: 24px;
   top: 24px;
   left: 940px;
 }
-.header-navigation-tel {
-  width: 151;
-  height: 24;
+.header-address-tel {
+  width: 151px;
+  height: 24px;
   top: 24px;
   left: 1133px;
 }
 .hero-image {
-  width: 1440;
-  height: 600;
+  width: 1440px;
+  height: 600px;
   top: 72px;
   background: #2e2f42;
 }
-.hero-image-maintext {
-  width: 496;
-  height: 120;
+h1 {
+  width: 496px;
+  height: 120px;
   top: 260px;
   left: 472px;
+  color: #ffffff;
 }
 .hero-image-button {
-  width: 169;
-  height: 56;
+  width: 169px;
+  height: 56px;
   top: 428px;
   left: 636px;
   background: #4d5ae5;
@@ -59,17 +67,17 @@ body {
   gap: 10px;
 }
 .hero-image-button-text {
-  width: 105;
-  height: 24;
+  width: 105px;
+  height: 24px;
 }
 .our-team {
-  width: 1440;
-  height: 732;
+  width: 1440px;
+  height: 732px;
   top: 1016px;
 }
 .our-team-maintext {
-  width: 162;
-  height: 40;
+  width: 162px;
+  height: 40px;
   top: 1136px;
   left: 639px;
   font-family: Roboto;
@@ -80,8 +88,8 @@ body {
   text-align: center;
 }
 .our-team-1 {
-  width: 264;
-  height: 380;
+  width: 264px;
+  height: 380px;
   top: 1248px;
   left: 156px;
   padding-bottom: 32px;
@@ -90,8 +98,8 @@ body {
   border-bottom-left-radius: 4px;
 }
 .our-team-2 {
-  width: 264;
-  height: 380;
+  width: 264px;
+  height: 380px;
   top: 1248px;
   left: 444px;
   padding-bottom: 32px;
@@ -134,20 +142,20 @@ body {
   top: 2988px;
 }
 .footer-alltext {
-  width: 264;
-  height: 112;
+  width: 264px;
+  height: 112px;
   top: 3088px;
   left: 156px;
 }
 .footer-logo {
-  width: 115;
-  height: 24;
+  width: 115px;
+  height: 24px;
   top: 3088px;
   left: 156px;
 }
 .footer-text {
-  width: 264;
-  height: 72;
+  width: 264px;
+  height: 72px;
   top: 3128px;
   left: 156px;
   font-family: Roboto;
