@@ -100,7 +100,7 @@ h1 {
 .section-team {
   background-color: #f4f4fd;
 }
-.section-title {
+.our-team-maintext {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -126,9 +126,6 @@ h1 {
 }
 
 /*4 секція*/
-.section {
-  padding: 120px 0;
-}
 
 .section-title {
   font-size: 36px;
@@ -146,12 +143,10 @@ h1 {
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
   justify-content: center;
 }
 
 .portfolio-item {
-  width: 360px;
   background-color: #ffffff;
   border: 1px solid #e7e9fc;
   transition: box-shadow 250ms ease-in-out;
