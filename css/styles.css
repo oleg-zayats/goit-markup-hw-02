@@ -96,7 +96,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-/*3 секція
+/*3 секція*/
 .section-team {
   background-color: #f4f4fd;
 }
@@ -124,11 +124,61 @@ h1 {
   letter-spacing: 0.02em;
   color: #434455;
 }
-*/
+
 /*4 секція*/
-.our-portfolio {
-  border-width: 1px;
+.section {
+  padding: 120px 0;
 }
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}
+
+.portfolio-item {
+  width: 360px;
+  background-color: #ffffff;
+  border: 1px solid #e7e9fc;
+  transition: box-shadow 250ms ease-in-out;
+}
+
+.portfolio-item:hover,
+.portfolio-item:focus-within {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 16px;
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 0 16px 16px;
+}
+
 /*футер*/
 .footer {
   background-color: #2e2f42;
