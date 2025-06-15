@@ -3,6 +3,8 @@ body {
   height: 3300;
   top: -1169px;
   left: 370px;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto";
 }
 .header {
   width: 1440px;
@@ -15,18 +17,25 @@ body {
   left: 347px;
   gap: 40px;
 }
-.header-navigation-logo {
-  width: 115px;
-  height: 24px;
-  top: 24px;
-  left: 156px;
-  font-family: "Raleway";
-  font-weight: 700px;
+.header-navigation-logo-web {
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.17px;
-  letter-spacing: 0.03em;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
   text-transform: uppercase;
   color: #4d5ae5;
+}
+.header-navigation-logo-studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 .header-address-email {
   width: 153px;
@@ -152,6 +161,7 @@ h1 {
   height: 24px;
   top: 3088px;
   left: 156px;
+  background: #4d5ae5;
 }
 .footer-text {
   width: 264px;
@@ -163,4 +173,5 @@ h1 {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
+  color: #f4f4fd;
 }
