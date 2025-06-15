@@ -1,10 +1,7 @@
 body {
-  width: 1440;
-  height: 3300;
-  top: -1169px;
-  left: 370px;
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto";
+  background-color: #ffffff;
+  color: #434455;
+  font-family: "Roboto", "Raleway", sans-serif;
 }
 .header {
   width: 1440px;
@@ -16,6 +13,8 @@ body {
   top: 24px;
   left: 347px;
   gap: 40px;
+  position: absolute;
+  display: flex;
 }
 .header-navigation-logo-web {
   font-family: Raleway;
@@ -156,12 +155,27 @@ h1 {
   top: 3088px;
   left: 156px;
 }
-.footer-logo {
-  width: 115px;
-  height: 24px;
-  top: 3088px;
-  left: 156px;
-  background: #4d5ae5;
+.footer-logo-web {
+  width: 44;
+  height: 21;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.footer-logo-studio {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 .footer-text {
   width: 264px;
