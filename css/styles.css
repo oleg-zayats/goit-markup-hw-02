@@ -3,162 +3,126 @@ body {
   color: #434455;
   font-family: "Roboto", "Raleway", sans-serif;
 }
-.header {
-  width: 1440px;
-  height: 72px;
-}
-.header-navigation {
-  width: 261px;
-  height: 24px;
-  top: 24px;
-  left: 347px;
-  gap: 40px;
-  position: absolute;
-  display: flex;
-}
-.header-navigation-logo-web {
-  font-family: Raleway;
+
+.logo-main {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  vertical-align: middle;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  text-decoration: none;
 }
-.header-navigation-logo-studio {
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 21px;
-  letter-spacing: 3%;
-  vertical-align: middle;
-  text-transform: uppercase;
+
+.logo-main .logo-highlight {
   color: #2e2f42;
 }
-.header-address-email {
-  width: 153px;
-  height: 24px;
-  top: 24px;
-  left: 940px;
+
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
 }
-.header-address-tel {
-  width: 151px;
-  height: 24px;
-  top: 24px;
-  left: 1133px;
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
+
+.address-info {
+  font-style: normal;
+}
+
+.contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #404bbf;
+}
+
 .hero-image {
   width: 1440px;
   height: 600px;
-  top: 72px;
   background: #2e2f42;
 }
+
 h1 {
+  color: #ffffff;
   width: 496px;
   height: 120px;
-  top: 260px;
-  left: 472px;
-  color: #ffffff;
 }
+
 .hero-image-button {
-  width: 169px;
-  height: 56px;
-  top: 428px;
-  left: 636px;
   background: #4d5ae5;
   border-radius: 4px;
-  padding-top: 16px;
-  padding-right: 32px;
-  padding-bottom: 16px;
-  padding-left: 32px;
+  padding: 16px 32px;
   gap: 10px;
+  width: 169px;
+  height: 56px;
 }
+
 .hero-image-button-text {
   width: 105px;
   height: 24px;
 }
+
 .our-team {
   width: 1440px;
   height: 732px;
-  top: 1016px;
 }
+
 .our-team-maintext {
-  width: 162px;
-  height: 40px;
-  top: 1136px;
-  left: 639px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 2%;
   text-align: center;
+  width: 162px;
+  height: 40px;
 }
-.our-team-1 {
-  width: 264px;
-  height: 380px;
-  top: 1248px;
-  left: 156px;
-  padding-bottom: 32px;
-  gap: 32px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.our-team-2 {
-  width: 264px;
-  height: 380px;
-  top: 1248px;
-  left: 444px;
-  padding-bottom: 32px;
-  gap: 32px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
-.our-team-3 {
-  width: 264;
-  height: 380;
-  top: 1248px;
-  left: 732px;
-  padding-bottom: 32px;
-  gap: 32px;
-  border-bottom-right-radius: 4px;
-  border-bottom-left-radius: 4px;
-}
+
+.our-team-1,
+.our-team-2,
+.our-team-3,
 .our-team-4 {
-  width: 264;
-  height: 380;
-  top: 1248px;
-  left: 1020px;
+  width: 264px;
+  height: 380px;
   padding-bottom: 32px;
   gap: 32px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
 }
+
 .our-portfolio {
-  width: 1128;
-  height: 1000;
-  top: 1868px;
-  left: 156px;
+  width: 1128px;
+  height: 1000px;
   border-width: 1px;
 }
 
 .footer {
   background-color: #2e2f42;
-  width: 1440;
-  height: 312;
-  top: 2988px;
+  width: 1440px;
+  height: 312px;
 }
+
 .footer-alltext {
   width: 264px;
   height: 112px;
-  top: 3088px;
-  left: 156px;
 }
+
 .footer-logo-web {
-  width: 44;
-  height: 21;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -166,9 +130,12 @@ h1 {
   vertical-align: middle;
   text-transform: uppercase;
   color: #4d5ae5;
+  width: 44px;
+  height: 21px;
 }
+
 .footer-logo-studio {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 21px;
@@ -177,15 +144,14 @@ h1 {
   text-transform: uppercase;
   color: #f4f4fd;
 }
+
 .footer-text {
-  width: 264px;
-  height: 72px;
-  top: 3128px;
-  left: 156px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
   color: #f4f4fd;
+  width: 264px;
+  height: 72px;
 }
